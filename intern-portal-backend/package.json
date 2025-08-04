@@ -2,24 +2,10 @@
   "name": "intern-portal-backend",
   "version": "1.0.0",
   "main": "index.js",
-<<<<<<< HEAD
-
-=======
- "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "node index.js"
-}
-,
->>>>>>> 2e828dd5272ab0426695ef9240c08bb12005a7a0
-
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "node index.js"
-<<<<<<< HEAD
-},
-=======
-}
->>>>>>> 2e828dd5272ab0426695ef9240c08bb12005a7a0
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
 
   "keywords": [],
   "author": "",
