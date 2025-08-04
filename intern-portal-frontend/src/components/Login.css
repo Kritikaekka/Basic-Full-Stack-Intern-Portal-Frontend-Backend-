@@ -1,0 +1,118 @@
+    .second
+{   display:flex;
+    font-size: 18px;
+    justify-self: left ;
+    background-color: none;
+    background-size: 100px 5000px;
+    margin-top: -45px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border-width: 10px;
+    color: white;
+    justify-content: center; 
+   
+
+}
+
+body {
+  
+  background-image: url("C:\Users\kriti\intern-portal-frontend\src\styles\b358bfbf-426e-4c21-ae45-59d5aba885f5.png"); /* Specify the path to your image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  background-size: cover; /* Ensures the image covers the entire background, scaling as needed */
+  background-attachment: fixed; /* Keeps the background image fixed during scrolling */
+}
+body {
+  /* Creates a color-to-transparent gradient overlay on top of your image */
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(117,47,38, 1),      /* fully opaque on left */
+      rgba(117, 47, 38, 0.9) 45%,/* still strong overlay at 45% */
+      rgba(117, 47, 38, 0.7) 80%,/* lightly faded but still there */
+      rgba(117, 47, 38, 0) 100%         /* Fully transparent as it moves right */
+    ),
+    url("C:\Users\kriti\intern-portal-frontend\src\styles\b358bfbf-426e-4c21-ae45-59d5aba885f5.png");   
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  
+  color: azure;
+}
+
+
+.login-container {
+   /* semi-transparent, or pick your preferred color */
+  border-radius: 12px;
+
+  
+  max-width: 350px;
+  margin: 100px auto;    /* centers the box with some space from the top */
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.heading
+{
+  color: white;
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.details1
+{
+  color: white;
+  margin-left: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.details
+{
+  color: white;
+  margin-left: 40px;
+  font-weight: bold;
+  margin-top: -20px;
+  
+}
+
+input {
+  margin-top: 10px;
+  width: 500px;       
+  height: 50px;
+  padding: 12px 16px;
+  font-size: 16px;    /* Controls visible text (not placeholder box size) */
+  border-radius: 7px; /* Optional rounded corners */
+  border: 1px white;
+  box-sizing: border-box; /* Ensures padding + border included in set size */
+}
+
+
+input::placeholder {
+  color: #b8bfcf;              /* Light gray-blue, for a soft tone */
+  font-style: normal;          /* Optional: makes it "gentler" */
+  opacity: 1;                  /* Ensures the color is visible (1 = fully opaque) */
+  letter-spacing: 0.4px;       /* Mild spacing for elegance */
+  transition: color 0.2s;
+  padding: 35px;
+  text-align: left;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none; /* optional: also removes any focus box-shadow you might have added */
+}
+
+.submit
+{
+  color: black;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+  width:500px;
+  height: 50px;
+  border-radius:10px;
+  border: 1px white;
+}

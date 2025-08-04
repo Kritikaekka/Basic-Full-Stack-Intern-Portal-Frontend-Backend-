@@ -1,0 +1,66 @@
+.leaderboard-bg
+{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align:center;
+}
+
+.leaderboard-card 
+{
+  border-radius: 2px;
+  width: fit-content;
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+.leaderboard-title 
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  letter-spacing: 4px;
+  font-size: 80px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.styled-leaderboard {
+  
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.styled-leaderboard th {
+  background: #facd96;
+  color: #000000;
+  font-weight: bold;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+
+.styled-leaderboard td {
+  background: #fff;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  padding: 10px 0;
+}
+
+.styled-leaderboard tr {
+  transition: transform 0.01s;
+}
+
+.styled-leaderboard tr:hover td {
+  background: white;
+  transform: scale(1.01);
+}
+
+
+
+
