@@ -16,7 +16,7 @@
 
 body {
   
-  background-image: url("C:\Users\kriti\intern-portal-frontend\src\styles\b358bfbf-426e-4c21-ae45-59d5aba885f5.png"); /* Specify the path to your image */
+  background-image: url("C:\Users\kriti\PROJECT SHE CAN FOUNDATION\intern-portal-frontend\src\styles\b358bfbf-426e-4c21-ae45-59d5aba885f5.png"); /* Specify the path to your image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center; /* Centers the image */
   background-size: cover; /* Ensures the image covers the entire background, scaling as needed */
@@ -32,7 +32,7 @@ body {
       rgba(117, 47, 38, 0.7) 80%,/* lightly faded but still there */
       rgba(117, 47, 38, 0) 100%         /* Fully transparent as it moves right */
     ),
-    url("C:\Users\kriti\intern-portal-frontend\src\styles\b358bfbf-426e-4c21-ae45-59d5aba885f5.png");   
+    url("C:\Users\kriti\PROJECT SHE CAN FOUNDATION\intern-portal-frontend\src\styles\b358bfbf-426e-4c21-ae45-59d5aba885f5.png");   
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
