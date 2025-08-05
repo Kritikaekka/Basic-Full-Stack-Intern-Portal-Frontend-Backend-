@@ -19,7 +19,7 @@ const Dashboard = () => {
 
   return (
     <div className='dashboard'>
-      <h2 className='head' >Dashboard</h2>
+      <h2 className='head' >DASHBOARD</h2>
       <div className='box'>
       <p><strong>Intern Name</strong><br/></p><p className='id'> {internName}</p>
       <p><strong>Referral Code</strong><br/> </p><p className='id'> {referralCode}</p>
