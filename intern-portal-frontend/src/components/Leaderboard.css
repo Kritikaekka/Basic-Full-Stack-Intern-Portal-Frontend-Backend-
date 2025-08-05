@@ -81,7 +81,7 @@
   }
 
   .styled-leaderboard {
-    border: 2px solid blue !important;
+    
     font-size: 1rem !important;
     margin: 0 auto !important; /* fixed here */
   }
