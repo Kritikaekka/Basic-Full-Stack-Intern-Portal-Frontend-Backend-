@@ -77,7 +77,7 @@
   /* Tables or grids */
   table, .table, .leaderboard-table {
     width: 100% !important;
-    overflow-x: auto;
+    
     display: block;
   }
 
