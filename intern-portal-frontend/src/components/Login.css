@@ -140,7 +140,6 @@ input:focus {
   }
 
   .second {
-    display:block;
     text-align: left !important;
     font-size: 1rem !important;
     margin-left: 5 !important;
