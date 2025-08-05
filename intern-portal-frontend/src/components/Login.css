@@ -117,10 +117,16 @@ input:focus {
 }
 
 @media (max-width: 600px) {
-  input, .submit {
+  input {
     width: 90% !important; /* Override fixed width */
     max-width: 90%;        /* Prevent overflow */
     box-sizing: border-box;
+  }
+
+  .submit{
+    max-width: 80% !important;
+    box-sizing: border-box;
+
   }
 
   .login-container {
