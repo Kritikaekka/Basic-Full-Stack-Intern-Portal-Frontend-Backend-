@@ -115,3 +115,36 @@ input:focus {
   border-radius:10px;
   border: 1px white;
 }
+
+@media (max-width: 600px) {
+  input, .submit {
+    width: 100% !important; /* Override fixed width */
+    max-width: 100%;        /* Prevent overflow */
+    box-sizing: border-box;
+  }
+
+  .login-container {
+    margin: 30px 10px !important; /* Smaller margin for narrow screens */
+    max-width: 100% !important; /* No fixed width constraint */
+  }
+
+  .heading {
+    font-size: 1.5rem !important; /* Smaller font size */
+    margin-left: 0 !important;
+  }
+
+  .second {
+    font-size: 1rem !important;
+    margin-left: 0 !important;
+  }
+
+  .details, .details1 {
+    margin-left: 0 !important; /* Remove left indentation */
+  }
+
+  /* Adjust button margin and height */
+  .submit {
+    margin-left: 0 !important;
+    height: 45px !important;
+  }
+}
