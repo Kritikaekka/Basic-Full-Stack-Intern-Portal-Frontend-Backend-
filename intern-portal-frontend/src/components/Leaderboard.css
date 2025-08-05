@@ -70,6 +70,9 @@
   .leaderboard-card {
     width: 100% !important; 
     margin: 0 auto !important;
+    display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
   }
 
   .leaderboard-title {
@@ -85,5 +88,6 @@
   .styled-leaderboard th, .styled-leaderboard td {
     padding: 8px 4px !important;
     white-space: nowrap; 
+    text-align: center;
   }
 }
