@@ -130,17 +130,17 @@ input:focus {
   }
 
   .login-container {
-    margin: 30px 10px !important; /* Smaller margin for narrow screens */
-    max-width: 100% !important; /* No fixed width constraint */
+    margin: 30px 10px !important; 
+    max-width: 100% !important; 
   }
 
   .heading {
-    font-size: 3rem !important; /* Smaller font size */
+    font-size: 4rem !important; 
     margin-left: 5 !important;
   }
 
   .second {
-    text-align:  left !important;
+    text-align: left !important;
     font-size: 1rem !important;
     margin-top: 10px !important;
   }
