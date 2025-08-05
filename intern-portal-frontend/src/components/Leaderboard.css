@@ -69,7 +69,7 @@
 @media (max-width: 768px) {
   .leaderboard-card {
     width: 100% !important; 
-    margin: 0px auto !important;
+    margin: 0 auto !important;
   }
 
   .leaderboard-title {
@@ -79,7 +79,7 @@
 
   .styled-leaderboard {
     font-size: 1rem !important;
-    margin: 2 auto !important;
+    margin: 0 auto !important; /* fixed here */
   }
 
   .styled-leaderboard th, .styled-leaderboard td {
@@ -87,7 +87,3 @@
     white-space: nowrap; 
   }
 }
-
-
-
-
