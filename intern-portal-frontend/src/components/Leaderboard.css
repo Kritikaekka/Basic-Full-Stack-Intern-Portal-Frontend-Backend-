@@ -80,6 +80,7 @@
   }
 
   .styled-leaderboard {
+    align-content: center;
     font-size: 0.9rem !important;
     display: block; /* Allows horizontal scrolling */
     overflow-x: auto;
