@@ -129,24 +129,24 @@ input:focus {
   }
 
   .heading {
-    font-size: 4rem !important; /* Smaller font size */
-    margin-left: 0 !important;
+    font-size: 2rem !important; /* Smaller font size */
+    margin-left: 5 !important;
   }
 
   .second {
-    text-align: left;
+    text-align: left !important;
     font-size: 1rem !important;
-    margin-left: 10 !important;
+    margin-left: 5 !important;
   }
 
   .details, .details1 {
-    margin-left: 10 !important;
+    margin-left: 5 !important;
   
   }
 
   /* Adjust button margin and height */
   .submit {
-    margin-left: 10 !important;
+    margin-left: 5 !important;
     height: 45px !important;
   }
 }
