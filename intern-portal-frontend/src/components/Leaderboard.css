@@ -81,9 +81,7 @@
 
   .styled-leaderboard {
     font-size: 0.9rem !important;
-    display: block;
-    -webkit-overflow-scrolling: touch;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
 
   .styled-leaderboard th, .styled-leaderboard td {
