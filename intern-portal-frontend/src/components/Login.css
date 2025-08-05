@@ -100,7 +100,7 @@ input::placeholder {
 
 input:focus {
   outline: none;
-  box-shadow: none; /* optional: also removes any focus box-shadow you might have added */
+  box-shadow: none; 
 }
 
 .submit
@@ -135,7 +135,7 @@ input:focus {
   }
 
   .heading {
-    font-size: 2rem !important; /* Smaller font size */
+    font-size: 3rem !important; /* Smaller font size */
     margin-left: 5 !important;
   }
 
@@ -144,7 +144,7 @@ input:focus {
     text-align: left !important;
     font-size: 1rem !important;
     margin-left: 5 !important;
-    margin-top: 5 !important;
+    margin-top: 20 !important;
   }
 
   .details, .details1 {
