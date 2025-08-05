@@ -4,9 +4,6 @@ import './Leaderboard.css';
 function Leaderboard() {
   const [leaders, setLeaders] = useState([]);
 
- 
-
-
   useEffect(() => {
     fetch('https://basic-full-stack-intern-portal-frontend.onrender.com/api/leaderboard')
       .then(res => res.json())

@@ -5,8 +5,6 @@ import Dashboard from './components/Dashboard';
 import Leaderboard from './components/Leaderboard';
 import './App.css';
 
-
-
 function App() {
   return (
     <div
@@ -24,8 +22,6 @@ function App() {
 }}
 >
  
-
-
     <div className='body'>
     <Router>
       <nav className="navbar">
