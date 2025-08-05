@@ -116,7 +116,7 @@ input:focus {
   border: 1px white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   input {
     width: 90% !important; /* Override fixed width */
     max-width: 90%;        /* Prevent overflow */
