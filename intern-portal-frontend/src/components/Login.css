@@ -137,7 +137,7 @@ input:focus {
     display:block;
     text-align: left !important;
     font-size: 1rem !important;
-    margin-left: 0 !important;
+    margin-left: 5 !important;
   }
 
   .details, .details1 {
