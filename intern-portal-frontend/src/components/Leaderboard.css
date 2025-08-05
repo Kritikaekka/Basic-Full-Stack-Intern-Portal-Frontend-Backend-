@@ -88,11 +88,6 @@
   }
 }
 
-@media (max-width: 400px) {
-  .leaderboard-title {
-    font-size: 1.75rem !important;
-    letter-spacing: 1px !important;
-  }
-}
+
 
 
