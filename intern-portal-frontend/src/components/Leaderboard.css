@@ -70,7 +70,7 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .leaderboard-card {
-    width: 90% !important; /* Make card almost full width on smaller screens */
+    width: 100% !important; /* Make card almost full width on smaller screens */
     margin: 20px auto;
   }
 
