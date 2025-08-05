@@ -118,8 +118,8 @@ input:focus {
 
 @media (max-width: 768px) {
   input {
-    width: 90% !important; /* Override fixed width */
-    max-width: 90%;        /* Prevent overflow */
+    width: 90% !important; 
+    max-width: 90%;   
     box-sizing: border-box;
   }
 
@@ -129,8 +129,7 @@ input:focus {
   }
 
   .heading {
-    font-size: 20px !important; 
-    margin-left: 5 !important;
+    
   }
 
   .details, .details1 {
