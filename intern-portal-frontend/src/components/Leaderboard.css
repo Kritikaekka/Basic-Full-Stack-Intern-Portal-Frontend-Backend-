@@ -68,11 +68,10 @@
 
 @media (max-width: 768px) {
   .leaderboard-card {
-    width: 100% !important; 
-    margin: 0 auto !important;
+    width: 100vw !important; 
     display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
   }
 
   .leaderboard-title {
@@ -81,6 +80,7 @@
   }
 
   .styled-leaderboard {
+    border: 2px solid red !important;
     font-size: 1rem !important;
     margin: 0 auto !important; /* fixed here */
   }
