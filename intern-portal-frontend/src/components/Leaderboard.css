@@ -68,7 +68,7 @@
 
 @media (max-width: 768px) {
   .leaderboard-card {
-    width: 80% !important; 
+    width: 70% !important; 
     margin: 0 auto !important;
     display: flex !important;
     flex-direction: column !important;
