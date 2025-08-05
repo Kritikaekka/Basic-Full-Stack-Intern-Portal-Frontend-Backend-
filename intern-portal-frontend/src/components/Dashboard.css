@@ -44,5 +44,39 @@
   min-height: 20px;
 }
 
+@media (max-width: 600px) {
+  /* Containers */
+  .container, .dashboard-container, .leaderboard-container {
+    max-width: 100% !important;
+    margin: 10px !important;
+    padding: 10px !important;
+  }
+
+  /* Text size adjustment */
+  h1, h2, h3, h4, .heading, .title {
+    font-size: 1.2rem !important;
+  }
+
+  /* Tables or grids */
+  table, .table, .leaderboard-table {
+    width: 100% !important;
+    overflow-x: auto;
+    display: block;
+  }
+
+  /* Buttons and Inputs */
+  button, input, select {
+    width: 100% !important;
+    box-sizing: border-box;
+    margin-bottom: 12px !important;
+  }
+
+  /* Spacing */
+  .section, .card, .panel {
+    margin: 12px 0 !important;
+  }
+}
+
+
 
 
