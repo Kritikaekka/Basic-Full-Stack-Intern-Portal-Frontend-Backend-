@@ -118,8 +118,8 @@ input:focus {
 
 @media (max-width: 600px) {
   input, .submit {
-    width: 100% !important; /* Override fixed width */
-    max-width: 100%;        /* Prevent overflow */
+    width: 90% !important; /* Override fixed width */
+    max-width: 90%;        /* Prevent overflow */
     box-sizing: border-box;
   }
 
@@ -129,22 +129,24 @@ input:focus {
   }
 
   .heading {
-    font-size: 1.5rem !important; /* Smaller font size */
+    font-size: 4rem !important; /* Smaller font size */
     margin-left: 0 !important;
   }
 
   .second {
+    text-align: left;
     font-size: 1rem !important;
-    margin-left: 0 !important;
+    margin-left: 10 !important;
   }
 
   .details, .details1 {
-    margin-left: 0 !important; /* Remove left indentation */
+    margin-left: 10 !important;
+  
   }
 
   /* Adjust button margin and height */
   .submit {
-    margin-left: 0 !important;
+    margin-left: 10 !important;
     height: 45px !important;
   }
 }
