@@ -61,39 +61,42 @@
   transform: scale(1.01);
 }
 
+
+/* Ensure universal box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Responsive adjustments */
 @media (max-width: 600px) {
-  /* Containers */
-  .container, .dashboard-container, .leaderboard-container {
-    max-width: 100% !important;
-    margin: 10px !important;
-    padding: 10px !important;
+  .leaderboard-card {
+    width: 90% !important; /* Make card almost full width on smaller screens */
+    margin: 20px auto;
   }
 
-  /* Text size adjustment */
-  h1, h2, h3, h4, .heading, .title {
-    font-size: 1.2rem !important;
+  .leaderboard-title {
+    font-size: 2.5rem !important; /* Smaller font on mobile */
+    letter-spacing: 2px !important;
   }
 
-  /* Tables or grids */
-  table, .table, .leaderboard-table {
-    width: 100% !important;
-    
+  .styled-leaderboard {
+    font-size: 0.9rem !important;
+    display: block; /* Allows horizontal scrolling */
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
   }
 
-  /* Buttons and Inputs */
-  button, input, select {
-    width: 100% !important;
-    box-sizing: border-box;
-    margin-bottom: 12px !important;
-  }
-
-  /* Spacing */
-  .section, .card, .panel {
-    margin: 12px 0 !important;
+  .styled-leaderboard th, .styled-leaderboard td {
+    padding: 8px 4px !important;
+    white-space: nowrap; /* Keep cells from wrapping */
   }
 }
 
-
-
+@media (max-width: 400px) {
+  .leaderboard-title {
+    font-size: 1.75rem !important;
+    letter-spacing: 1px !important;
+  }
+}
 
 
