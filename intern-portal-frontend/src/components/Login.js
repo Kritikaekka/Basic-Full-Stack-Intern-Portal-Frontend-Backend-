@@ -1,15 +1,54 @@
-return (
-  <div
-    style={{
-      minHeight: "100vh",
-      backgroundImage: `linear-gradient(to right, rgba(117,47,38,1), rgba(117,47,38,0.9) 45%, rgba(117,47,38,0.7) 80%, rgba(117,47,38,0) 100%), url('/b358bfbf-426e-4c21-ae45-59d5aba885f5.png')`,
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      backgroundAttachment: "fixed"
-    }}
-  >
-    <div className="login-container">
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import './Login.css';
+
+
+
+
+function Login() {
+  const [name, setName] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError('');
+    setLoading(true);
+
+    try {
+      const response = await fetch('https://basic-full-stack-intern-portal-frontend.onrender.com/api/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, password }),
+      });
+
+      if (!response.ok) {
+        // Server responded with error status
+        throw new Error(`Server error: ${response.statusText}`);
+      }
+
+      const data = await response.json();
+
+      if (data.success) {
+        // Navigate to dashboard with user data passed as state
+        navigate('/dashboard', { state: data });
+      } else {
+        setError(data.message || 'Data not available');
+      }
+    } catch (err) {
+      setError(`Error connecting to backend: ${err.message}`);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+
+
+    <div >
+    <div>
       <h4 className='heading'>Welcome Back</h4>
       <h6 className='second'>Please enter your details.</h6>
       <form onSubmit={handleSubmit}>
@@ -39,9 +78,11 @@ return (
           {loading ? 'Logging in...' : 'LOGIN'}
         </button>
       </form>
-      {error && <p style={{ color: '#ffcf87ff', marginTop: 10 }}>{error}</p>}
-    </div>
-  </div>
-);
+      {error && <p style={{ color: '#ffcf87ff', marginTop: 10 , marginLeft:40}}>{error}</p>}
+    </div> </div> 
+  );
+  
+}
 
+export default Login;
 
