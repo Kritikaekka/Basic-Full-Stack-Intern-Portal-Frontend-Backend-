@@ -62,20 +62,18 @@
 }
 
 
-/* Ensure universal box-sizing */
 * {
   box-sizing: border-box;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .leaderboard-card {
-    width: 100% !important; /* Make card almost full width on smaller screens */
-    margin: 20px auto;
+    width: 100% !important; 
+    margin: 0px auto;
   }
 
   .leaderboard-title {
-    font-size: 2.5rem !important; /* Smaller font on mobile */
+    font-size: 2.5rem !important; 
     letter-spacing: 2px !important;
   }
 
@@ -86,7 +84,7 @@
 
   .styled-leaderboard th, .styled-leaderboard td {
     padding: 8px 4px !important;
-    white-space: nowrap; /* Keep cells from wrapping */
+    white-space: nowrap; 
   }
 }
 
